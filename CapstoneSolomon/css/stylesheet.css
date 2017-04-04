@@ -1,0 +1,21 @@
+/*CSS Stylesheet*/
+body {
+    margin: 0;
+}
+
+#first {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 80px;
+    background-color: rgb(89, 161, 231);
+}
+
+#bottom {
+    margin-bottom: 30px;
+    height: 80px;
+    background-color: rgb(149, 194, 238);
+}
+
+.content {
+    background-color: rgb(217, 240, 255);
+}
