@@ -17,5 +17,17 @@ body {
 }
 
 .content {
-    background-color: rgb(217, 240, 255);
+    background-color: rgb(120, 202, 255);
+}
+
+img {
+    width: 100%;
+    padding: 20px;
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: white;
 }
