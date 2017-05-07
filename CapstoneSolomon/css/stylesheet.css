@@ -38,11 +38,22 @@ body {
     margin-bottom: 30px;
     height: 80px;
     width: 296px;
-    background-color: rgb(149, 194, 238);
+    background-color: rgb(44, 119, 191);
     display: block;
     margin-left: auto;
     margin-right: auto;
     font-size: 30px;
+}
+
+#pages {
+    margin-top: 1px;
+    margin-bottom: 15px;
+    height: 40px;
+    width: 240px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
 }
 
 .content {
