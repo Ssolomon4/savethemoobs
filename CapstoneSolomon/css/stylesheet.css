@@ -4,7 +4,6 @@ body, .content {
     width: 320px;
 }
 
-
 #firstbutton {
     margin-bottom: 15px;
     margin-left: 12px;
@@ -101,6 +100,10 @@ iframe {
     width: 100%;
 }
 
+.ipadonly {
+    display: none;
+}
+
 
 /*iphone 6*/
 @media screen and (max-width: 375px) and (min-width: 370px) {
@@ -123,15 +126,20 @@ body, .content {
 }
     
 #lastbutton {
-      width: 313px;  
+    width: 313px;  
 }
     
 #pages {
-   width: 300px;
+    width: 300px;
     font-size: 16px;
 }
     
+.ipadonly {
+    display: none;
 }
+    
+}
+
 
 /*iphone 6plus*/
 @media screen and (max-width: 414px) and (min-width: 413px) {
@@ -151,21 +159,26 @@ body, .content {
 }
     
 #topbutton{
-   margin-top: 100px; 
+    margin-top: 100px; 
     height: 95px;
 }
     
 #lastbutton {
-      width: 320px; 
+    width: 320px; 
     height: 95px;
 }
     
 #pages {
-   width: 360px;
+    width: 360px;
     font-size: 20px;
 }
     
+.ipadonly {
+    display: none;
 }
+    
+}
+
 
 /*iPad Mini*/
 @media screen and (max-width: 768px) and (min-width: 703px) {
@@ -181,37 +194,42 @@ body, .content {
     
 #topbutton, #bottombutton, #firstbutton {
     margin-left: 55px;
-    margin-bottom: 50px;
-    height: 100px;
+    margin-bottom: 40px;
+    height: 130px;
     width: 300px;
     font-size: 30px;
 }
     
 #topbutton{
-   margin-top: 220px; 
-    height: 100px;
+    margin-top: 20px; 
+    height: 130px;
     width: 300px;
 }
     
 #lastbutton {
-    height: 100px;
+    height: 130px;
     width: 665px;
     font-size: 40px;
 }
     
 #pages {
-   width: 570px;
+    width: 570px;
     height: 80px;
     font-size: 30px;
 } 
 
 #enter {
-   width: 400px;
+    width: 400px;
     font-size: 25px;
 }
     
 h1 {
    font-size: 50px;     
+}
+    
+.ipadonly {
+    display: block;
+    width: 20%;
 }
     
 }
